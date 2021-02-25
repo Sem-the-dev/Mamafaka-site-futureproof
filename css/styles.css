@@ -1,0 +1,32 @@
+nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+body > nav .left-side {
+  display: flex;
+}
+body > nav .nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+nav .nav-wrapper > .right-side > div {
+  text-transform: uppercase;
+}
+nav .nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+nav .nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+nav .nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+nav.nav-link-wrapper a:hover {
+  color: black;
+}
